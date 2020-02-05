@@ -1,3 +1,5 @@
+
+
 // 1.引入axios
 import axios from 'axios'
 
@@ -6,7 +8,7 @@ export const getData= () => {
     return axios({
       url: 'http://api.tianapi.com/txapi/ncov/index',
       params:{
-          key:"974e7e98d6dcac24110d998943cbf0c6"
+          key:"你的密钥"
       }
     })
   }
